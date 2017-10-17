@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3B39BF1F909F5B003DC913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B39BE1F909F5B003DC913 /* main.m */; };
+		FE3B39C21F909F5B003DC913 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B39C11F909F5B003DC913 /* AppDelegate.m */; };
+		FE3B39C51F909F5B003DC913 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B39C41F909F5B003DC913 /* ViewController.m */; };
+		FE3B39C81F909F5B003DC913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3B39C61F909F5B003DC913 /* Main.storyboard */; };
+		FE3B39CA1F909F5B003DC913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3B39C91F909F5B003DC913 /* Assets.xcassets */; };
+		FE3B39CD1F909F5B003DC913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3B39CB1F909F5B003DC913 /* LaunchScreen.storyboard */; };
+		FE3B39D81F909F5B003DC913 /* UrlRouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B39D71F909F5B003DC913 /* UrlRouteTests.m */; };
+		FE3B39E31F909F5B003DC913 /* UrlRouteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B39E21F909F5B003DC913 /* UrlRouteUITests.m */; };
+		FE3B39FA1F90A71B003DC913 /* SKUrlRouteCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B39F91F90A71B003DC913 /* SKUrlRouteCenter.m */; };
+		FE3B3A031F90A848003DC913 /* SKUrlRouteCenter+DataReload.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B3A001F90A848003DC913 /* SKUrlRouteCenter+DataReload.m */; };
+		FE3B3A041F90A848003DC913 /* UIViewController+SKUrlRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B3A021F90A848003DC913 /* UIViewController+SKUrlRoute.m */; };
+		FE3B3A0B1F90BA98003DC913 /* SKUrlRouteFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE3B3A0A1F90BA98003DC913 /* SKUrlRouteFile.plist */; };
+		FE3B3A0E1F90BC59003DC913 /* SKUrlRouteData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B3A0D1F90BC59003DC913 /* SKUrlRouteData.m */; };
+		FE3B3A111F90C20C003DC913 /* SKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B3A101F90C20C003DC913 /* SKTextViewController.m */; };
+		FE8C0E9C1F91DE8C00CB5DD8 /* UIApplication+SKUrlRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C0E9B1F91DE8C00CB5DD8 /* UIApplication+SKUrlRoute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE3B39D41F909F5B003DC913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3B39B21F909F5B003DC913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3B39B91F909F5B003DC913;
+			remoteInfo = UrlRoute;
+		};
+		FE3B39DF1F909F5B003DC913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE3B39B21F909F5B003DC913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE3B39B91F909F5B003DC913;
+			remoteInfo = UrlRoute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE3B39BA1F909F5B003DC913 /* UrlRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrlRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B39BE1F909F5B003DC913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE3B39C01F909F5B003DC913 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE3B39C11F909F5B003DC913 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE3B39C31F909F5B003DC913 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE3B39C41F909F5B003DC913 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE3B39C71F909F5B003DC913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3B39C91F909F5B003DC913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3B39CC1F909F5B003DC913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3B39CE1F909F5B003DC913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3B39D31F909F5B003DC913 /* UrlRouteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrlRouteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B39D71F909F5B003DC913 /* UrlRouteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlRouteTests.m; sourceTree = "<group>"; };
+		FE3B39D91F909F5B003DC913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3B39DE1F909F5B003DC913 /* UrlRouteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrlRouteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B39E21F909F5B003DC913 /* UrlRouteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlRouteUITests.m; sourceTree = "<group>"; };
+		FE3B39E41F909F5B003DC913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3B39F81F90A71B003DC913 /* SKUrlRouteCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUrlRouteCenter.h; sourceTree = "<group>"; };
+		FE3B39F91F90A71B003DC913 /* SKUrlRouteCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKUrlRouteCenter.m; sourceTree = "<group>"; };
+		FE3B39FF1F90A848003DC913 /* SKUrlRouteCenter+DataReload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKUrlRouteCenter+DataReload.h"; sourceTree = "<group>"; };
+		FE3B3A001F90A848003DC913 /* SKUrlRouteCenter+DataReload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKUrlRouteCenter+DataReload.m"; sourceTree = "<group>"; };
+		FE3B3A011F90A848003DC913 /* UIViewController+SKUrlRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SKUrlRoute.h"; sourceTree = "<group>"; };
+		FE3B3A021F90A848003DC913 /* UIViewController+SKUrlRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SKUrlRoute.m"; sourceTree = "<group>"; };
+		FE3B3A051F90A88C003DC913 /* SKUrlRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKUrlRoute.h; sourceTree = "<group>"; };
+		FE3B3A061F90B5CD003DC913 /* SKUrlRouteConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKUrlRouteConfig.h; sourceTree = "<group>"; };
+		FE3B3A0A1F90BA98003DC913 /* SKUrlRouteFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SKUrlRouteFile.plist; sourceTree = "<group>"; };
+		FE3B3A0C1F90BC59003DC913 /* SKUrlRouteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUrlRouteData.h; sourceTree = "<group>"; };
+		FE3B3A0D1F90BC59003DC913 /* SKUrlRouteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKUrlRouteData.m; sourceTree = "<group>"; };
+		FE3B3A0F1F90C20C003DC913 /* SKTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextViewController.h; sourceTree = "<group>"; };
+		FE3B3A101F90C20C003DC913 /* SKTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextViewController.m; sourceTree = "<group>"; };
+		FE8C0E9A1F91DE8C00CB5DD8 /* UIApplication+SKUrlRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SKUrlRoute.h"; sourceTree = "<group>"; };
+		FE8C0E9B1F91DE8C00CB5DD8 /* UIApplication+SKUrlRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SKUrlRoute.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3B39B71F909F5B003DC913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B39D01F909F5B003DC913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B39DB1F909F5B003DC913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3B39B11F909F5B003DC913 = {
+			isa = PBXGroup;
+			children = (
+				FE3B39BC1F909F5B003DC913 /* UrlRoute */,
+				FE3B39D61F909F5B003DC913 /* UrlRouteTests */,
+				FE3B39E11F909F5B003DC913 /* UrlRouteUITests */,
+				FE3B39BB1F909F5B003DC913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3B39BB1F909F5B003DC913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B39BA1F909F5B003DC913 /* UrlRoute.app */,
+				FE3B39D31F909F5B003DC913 /* UrlRouteTests.xctest */,
+				FE3B39DE1F909F5B003DC913 /* UrlRouteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3B39BC1F909F5B003DC913 /* UrlRoute */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B39F01F90A014003DC913 /* SKUrlRoute */,
+				FE3B39C01F909F5B003DC913 /* AppDelegate.h */,
+				FE3B39C11F909F5B003DC913 /* AppDelegate.m */,
+				FE3B39C31F909F5B003DC913 /* ViewController.h */,
+				FE3B39C41F909F5B003DC913 /* ViewController.m */,
+				FE3B3A0F1F90C20C003DC913 /* SKTextViewController.h */,
+				FE3B3A101F90C20C003DC913 /* SKTextViewController.m */,
+				FE3B39C61F909F5B003DC913 /* Main.storyboard */,
+				FE3B39C91F909F5B003DC913 /* Assets.xcassets */,
+				FE3B39CB1F909F5B003DC913 /* LaunchScreen.storyboard */,
+				FE3B39CE1F909F5B003DC913 /* Info.plist */,
+				FE3B39BD1F909F5B003DC913 /* Supporting Files */,
+			);
+			path = UrlRoute;
+			sourceTree = "<group>";
+		};
+		FE3B39BD1F909F5B003DC913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B39BE1F909F5B003DC913 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE3B39D61F909F5B003DC913 /* UrlRouteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B39D71F909F5B003DC913 /* UrlRouteTests.m */,
+				FE3B39D91F909F5B003DC913 /* Info.plist */,
+			);
+			path = UrlRouteTests;
+			sourceTree = "<group>";
+		};
+		FE3B39E11F909F5B003DC913 /* UrlRouteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B39E21F909F5B003DC913 /* UrlRouteUITests.m */,
+				FE3B39E41F909F5B003DC913 /* Info.plist */,
+			);
+			path = UrlRouteUITests;
+			sourceTree = "<group>";
+		};
+		FE3B39F01F90A014003DC913 /* SKUrlRoute */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B39F11F90A014003DC913 /* Base */,
+				FE3B39F21F90A014003DC913 /* Data */,
+				FE3B39FE1F90A848003DC913 /* Cate */,
+				FE3B3A051F90A88C003DC913 /* SKUrlRoute.h */,
+			);
+			path = SKUrlRoute;
+			sourceTree = "<group>";
+		};
+		FE3B39F11F90A014003DC913 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B39F81F90A71B003DC913 /* SKUrlRouteCenter.h */,
+				FE3B39F91F90A71B003DC913 /* SKUrlRouteCenter.m */,
+				FE3B3A061F90B5CD003DC913 /* SKUrlRouteConfig.h */,
+				FE3B3A0C1F90BC59003DC913 /* SKUrlRouteData.h */,
+				FE3B3A0D1F90BC59003DC913 /* SKUrlRouteData.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FE3B39F21F90A014003DC913 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B3A0A1F90BA98003DC913 /* SKUrlRouteFile.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FE3B39FE1F90A848003DC913 /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B39FF1F90A848003DC913 /* SKUrlRouteCenter+DataReload.h */,
+				FE3B3A001F90A848003DC913 /* SKUrlRouteCenter+DataReload.m */,
+				FE3B3A011F90A848003DC913 /* UIViewController+SKUrlRoute.h */,
+				FE3B3A021F90A848003DC913 /* UIViewController+SKUrlRoute.m */,
+				FE8C0E9A1F91DE8C00CB5DD8 /* UIApplication+SKUrlRoute.h */,
+				FE8C0E9B1F91DE8C00CB5DD8 /* UIApplication+SKUrlRoute.m */,
+			);
+			path = Cate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3B39B91F909F5B003DC913 /* UrlRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B39E71F909F5B003DC913 /* Build configuration list for PBXNativeTarget "UrlRoute" */;
+			buildPhases = (
+				FE3B39B61F909F5B003DC913 /* Sources */,
+				FE3B39B71F909F5B003DC913 /* Frameworks */,
+				FE3B39B81F909F5B003DC913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UrlRoute;
+			productName = UrlRoute;
+			productReference = FE3B39BA1F909F5B003DC913 /* UrlRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE3B39D21F909F5B003DC913 /* UrlRouteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B39EA1F909F5B003DC913 /* Build configuration list for PBXNativeTarget "UrlRouteTests" */;
+			buildPhases = (
+				FE3B39CF1F909F5B003DC913 /* Sources */,
+				FE3B39D01F909F5B003DC913 /* Frameworks */,
+				FE3B39D11F909F5B003DC913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3B39D51F909F5B003DC913 /* PBXTargetDependency */,
+			);
+			name = UrlRouteTests;
+			productName = UrlRouteTests;
+			productReference = FE3B39D31F909F5B003DC913 /* UrlRouteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE3B39DD1F909F5B003DC913 /* UrlRouteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B39ED1F909F5B003DC913 /* Build configuration list for PBXNativeTarget "UrlRouteUITests" */;
+			buildPhases = (
+				FE3B39DA1F909F5B003DC913 /* Sources */,
+				FE3B39DB1F909F5B003DC913 /* Frameworks */,
+				FE3B39DC1F909F5B003DC913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3B39E01F909F5B003DC913 /* PBXTargetDependency */,
+			);
+			name = UrlRouteUITests;
+			productName = UrlRouteUITests;
+			productReference = FE3B39DE1F909F5B003DC913 /* UrlRouteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3B39B21F909F5B003DC913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lon;
+				TargetAttributes = {
+					FE3B39B91F909F5B003DC913 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					FE3B39D21F909F5B003DC913 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE3B39B91F909F5B003DC913;
+					};
+					FE3B39DD1F909F5B003DC913 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE3B39B91F909F5B003DC913;
+					};
+				};
+			};
+			buildConfigurationList = FE3B39B51F909F5B003DC913 /* Build configuration list for PBXProject "UrlRoute" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3B39B11F909F5B003DC913;
+			productRefGroup = FE3B39BB1F909F5B003DC913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3B39B91F909F5B003DC913 /* UrlRoute */,
+				FE3B39D21F909F5B003DC913 /* UrlRouteTests */,
+				FE3B39DD1F909F5B003DC913 /* UrlRouteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3B39B81F909F5B003DC913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B39CD1F909F5B003DC913 /* LaunchScreen.storyboard in Resources */,
+				FE3B39CA1F909F5B003DC913 /* Assets.xcassets in Resources */,
+				FE3B3A0B1F90BA98003DC913 /* SKUrlRouteFile.plist in Resources */,
+				FE3B39C81F909F5B003DC913 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B39D11F909F5B003DC913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B39DC1F909F5B003DC913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3B39B61F909F5B003DC913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B39C51F909F5B003DC913 /* ViewController.m in Sources */,
+				FE3B39C21F909F5B003DC913 /* AppDelegate.m in Sources */,
+				FE3B3A041F90A848003DC913 /* UIViewController+SKUrlRoute.m in Sources */,
+				FE3B3A031F90A848003DC913 /* SKUrlRouteCenter+DataReload.m in Sources */,
+				FE3B3A111F90C20C003DC913 /* SKTextViewController.m in Sources */,
+				FE3B39BF1F909F5B003DC913 /* main.m in Sources */,
+				FE3B3A0E1F90BC59003DC913 /* SKUrlRouteData.m in Sources */,
+				FE8C0E9C1F91DE8C00CB5DD8 /* UIApplication+SKUrlRoute.m in Sources */,
+				FE3B39FA1F90A71B003DC913 /* SKUrlRouteCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B39CF1F909F5B003DC913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B39D81F909F5B003DC913 /* UrlRouteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B39DA1F909F5B003DC913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B39E31F909F5B003DC913 /* UrlRouteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE3B39D51F909F5B003DC913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3B39B91F909F5B003DC913 /* UrlRoute */;
+			targetProxy = FE3B39D41F909F5B003DC913 /* PBXContainerItemProxy */;
+		};
+		FE3B39E01F909F5B003DC913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE3B39B91F909F5B003DC913 /* UrlRoute */;
+			targetProxy = FE3B39DF1F909F5B003DC913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE3B39C61F909F5B003DC913 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3B39C71F909F5B003DC913 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3B39CB1F909F5B003DC913 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3B39CC1F909F5B003DC913 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3B39E51F909F5B003DC913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE3B39E61F909F5B003DC913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3B39E81F909F5B003DC913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UrlRoute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UrlRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE3B39E91F909F5B003DC913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UrlRoute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UrlRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE3B39EB1F909F5B003DC913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UrlRouteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UrlRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrlRoute.app/UrlRoute";
+			};
+			name = Debug;
+		};
+		FE3B39EC1F909F5B003DC913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UrlRouteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UrlRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrlRoute.app/UrlRoute";
+			};
+			name = Release;
+		};
+		FE3B39EE1F909F5B003DC913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UrlRouteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UrlRouteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UrlRoute;
+			};
+			name = Debug;
+		};
+		FE3B39EF1F909F5B003DC913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UrlRouteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.UrlRouteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UrlRoute;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3B39B51F909F5B003DC913 /* Build configuration list for PBXProject "UrlRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B39E51F909F5B003DC913 /* Debug */,
+				FE3B39E61F909F5B003DC913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B39E71F909F5B003DC913 /* Build configuration list for PBXNativeTarget "UrlRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B39E81F909F5B003DC913 /* Debug */,
+				FE3B39E91F909F5B003DC913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B39EA1F909F5B003DC913 /* Build configuration list for PBXNativeTarget "UrlRouteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B39EB1F909F5B003DC913 /* Debug */,
+				FE3B39EC1F909F5B003DC913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B39ED1F909F5B003DC913 /* Build configuration list for PBXNativeTarget "UrlRouteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B39EE1F909F5B003DC913 /* Debug */,
+				FE3B39EF1F909F5B003DC913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3B39B21F909F5B003DC913 /* Project object */;
+}
